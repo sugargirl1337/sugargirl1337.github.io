@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#701f2b">
+  <title>Ковёр — кофейня в Набережных Челнах</title>
+  <meta name="description" content="Кофейня «Ковёр»: капучино, раф урбеч, матча, смузи и лимонады. Сююмбике 36 с 7:00 до 23:00, Мира 86 у ДК КАМАЗа с 6:00 до 00:00. Седьмой кофе в подарок, доставка до двери в доме 36.">
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Golos+Text:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Ковёр","telephone":"+79170000000","servesCuisine":"Кофе","priceRange":"₽₽",
+   "address":[{"@type":"PostalAddress","streetAddress":"просп. Сююмбике, 36","addressLocality":"Набережные Челны","addressCountry":"RU"},
+              {"@type":"PostalAddress","streetAddress":"просп. Мира, 86, стр. 1","addressLocality":"Набережные Челны","addressCountry":"RU"}]}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#menu">К меню</a>
+
+  <header class="top" id="top">
+    <a class="logo rise" href="#top" aria-label="Ковёр — начало страницы">Ковёр</a>
+    <nav class="top__nav rise" aria-label="Разделы">
+      <a href="#menu">Меню</a>
+      <a href="#promo">Акции</a>
+      <a href="#places">Адреса</a>
+    </nav>
+    <a class="top__phone rise" href="tel:+79170000000"><span class="top__phone-label">Позвонить и&nbsp;заказать</span><span class="top__phone-num">+7 917 000-00-00</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__text">
+        <h1 id="hero-title" class="hero__title rise">Кофе, за&nbsp;которым<br>возвращаются</h1>
+        <p class="hero__lead rise">Капучино, раф урбеч, матча и&nbsp;лимонады. Сююмбике с&nbsp;7:00, Мира с&nbsp;6:00, каждый день до&nbsp;позднего вечера.</p>
+        <div class="hero__cta rise">
+          <div class="hero__buttons">
+            <a class="btn btn--solid btn--big" href="https://t.me/kover_coffee_bot" target="_blank" rel="noopener"><span class="btn__fill"></span><span class="btn__label">Открыть карту гостя в&nbsp;Telegram</span></a>
+            <a class="btn btn--line btn--big" href="https://max.ru/kover_coffee_bot" target="_blank" rel="noopener"><span class="btn__fill"></span><span class="btn__label">Открыть в&nbsp;Max</span></a>
+          </div>
+          <span class="reassure">Без приложения, по&nbsp;номеру телефона. Седьмой кофе в&nbsp;подарок.</span>
+        </div>
+      </div>
+
+      <div class="hero__object rise" aria-hidden="true">
+        <div class="cup-wrap">
+          <svg class="cup" viewBox="0 0 420 600" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="g-body" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#f4f0ea"/><stop offset=".55" stop-color="#e6e1da"/><stop offset="1" stop-color="#c9c1b7"/></linearGradient>
+              <linearGradient id="g-sleeve" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#84283a"/><stop offset=".6" stop-color="#701f2b"/><stop offset="1" stop-color="#45121a"/></linearGradient>
+              <linearGradient id="g-lid" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#3b3335"/><stop offset="1" stop-color="#1c1718"/></linearGradient>
+              <pattern id="g-orn" width="44" height="44" patternUnits="userSpaceOnUse">
+                <path d="M22 4c-8 0-12 6-12 12s6 8 8 4-2-8 4-8 6 6 4 8 6 4 8-4-4-12-12-12zM22 40c8 0 12-6 12-12s-6-8-8-4 2 8-4 8-6-6-4-8-6-4-8 4 4 12 12 12z" fill="none" stroke="#e6e1da" stroke-width="1.2"/>
+              </pattern>
+            </defs>
+            <path d="M80 88h260c0-34-40-52-130-52S80 54 80 88z" fill="url(#g-lid)"/>
+            <rect x="236" y="44" width="56" height="14" rx="5" fill="#0d0a0b"/>
+            <rect x="54" y="86" width="312" height="28" rx="9" fill="url(#g-lid)"/>
+            <path d="M66 114l30 438a24 24 0 0 0 24 22h180a24 24 0 0 0 24-22l30-438z" fill="url(#g-body)"/>
+            <path d="M72 252l12 180h252l12-180z" fill="url(#g-sleeve)"/>
+            <path d="M72 252l12 180h252l12-180z" fill="url(#g-orn)" opacity=".22"/>
+            <text x="210" y="352" text-anchor="middle" font-family="Oswald, 'Arial Narrow', sans-serif" font-weight="500" font-size="66" letter-spacing="3" fill="#e6e1da">КОВЁР</text>
+            <text x="210" y="398" text-anchor="middle" font-family="'Golos Text', system-ui, sans-serif" font-size="18" letter-spacing="2" fill="#e6e1da" opacity=".78">КОФЕЙНЯ</text>
+            <path d="M106 130l22 400" stroke="#fff" stroke-opacity=".5" stroke-width="9" stroke-linecap="round"/>
+          </svg>
+          <span class="cup__price">Капучино<br>360&nbsp;₽</span>
+        </div>
+        <div class="cup-shadow"></div>
+      </div>
+
+      <p class="hero__word" aria-hidden="true">Тёплый, как&nbsp;ковёр</p>
+    </section>
+
+    <section class="menu" id="menu" aria-labelledby="menu-title" data-reveal>
+      <div class="menu__aside">
+        <h2 id="menu-title" class="rise">Меню</h2>
+        <p class="rise">Две цифры в&nbsp;строке это объёмы M и&nbsp;L. Любой молочный напиток готовим на&nbsp;растительном или безлактозном молоке за&nbsp;90&nbsp;₽.</p>
+        <p class="menu__food rise">Сэндвичи, блинчики и&nbsp;конфеты на&nbsp;витрине, состав дня подскажет бариста.</p>
+        <a class="btn btn--wine rise" href="tel:+79170000000"><span class="btn__fill"></span><span class="btn__label">Позвонить и&nbsp;заказать</span></a>
+      </div>
+      <div class="menu__groups">
+        <section class="group rise" aria-labelledby="g1">
+          <h3 id="g1"><span class="group__num">01</span>Кофе</h3>
+          <ol class="rows">
+            <li><span>Эспрессо</span><span>220</span><span></span></li>
+            <li><span>Американо</span><span>280</span><span>300</span></li>
+            <li><span>Капучино</span><span>360</span><span>390</span></li>
+            <li><span>Латте</span><span>360</span><span>390</span></li>
+            <li><span>Флэт уайт</span><span>360</span><span>390</span></li>
+            <li><span>Раф</span><span>390</span><span>460</span></li>
+          </ol>
+        </section>
+        <section class="group rise" aria-labelledby="g2">
+          <h3 id="g2"><span class="group__num">02</span>Авторский кофе</h3>
+          <ol class="rows">
+            <li><span>Раф халва</span><span>490</span><span>520</span></li>
+            <li><span>Раф мёд-лаванда</span><span>490</span><span>520</span></li>
+            <li><span>Раф урбеч</span><span>490</span><span>520</span></li>
+          </ol>
+        </section>
+        <section class="group rise" aria-labelledby="g3">
+          <h3 id="g3"><span class="group__num">03</span>Холодный кофе</h3>
+          <ol class="rows">
+            <li><span>Айс-латте</span><span>390</span><span>420</span></li>
+            <li><span>Айс-кофе урбеч</span><span>460</span><span>490</span></li>
+            <li><span>Бамбл апельсин</span><span>460</span><span>490</span></li>
+            <li><span>Бамбл гранат</span><span>490</span><span>520</span></li>
+          </ol>
+        </section>
+        <section class="group rise" aria-labelledby="g4">
+          <h3 id="g4"><span class="group__num">04</span>Матча</h3>
+          <ol class="rows">
+            <li><span>Матча-латте</span><span>390</span><span>420</span></li>
+            <li><span>Айс-матча</span><span>420</span><span>460</span></li>
+            <li><span>Матча-фреш</span><span>390</span><span>420</span></li>
+          </ol>
+        </section>
+        <section class="group rise" aria-labelledby="g5">
+          <h3 id="g5"><span class="group__num">05</span>Не кофе</h3>
+          <ol class="rows">
+            <li><span>Какао</span><span>360</span><span>420</span></li>
+            <li><span>Горячий шоколад</span><span>460</span><span>520</span></li>
+          </ol>
+        </section>
+        <section class="group rise" aria-labelledby="g6">
+          <h3 id="g6"><span class="group__num">06</span>Чай</h3>
+          <ol class="rows">
+            <li><span>Чёрный</span><span>220</span><span>260</span></li>
+            <li><span>Зелёный</span><span>220</span><span>260</span></li>
+            <li><span>Горный</span><span>390</span><span>420</span></li>
+            <li><span>Малина-имбирь</span><span>360</span><span>390</span></li>
+            <li><span>Облепиха-апельсин</span><span>360</span><span>390</span></li>
+          </ol>
+        </section>
+        <section class="group rise" aria-labelledby="g7">
+          <h3 id="g7"><span class="group__num">07</span>Лимонады</h3>
+          <ol class="rows">
+            <li><span>Клубника-маракуйя</span><span>390</span><span>420</span></li>
+            <li><span>Малина-личи</span><span>390</span><span>420</span></li>
+            <li><span>Грейпфрут-смородина</span><span>390</span><span>420</span></li>
+          </ol>
+        </section>
+        <section class="group rise" aria-labelledby="g8">
+          <h3 id="g8"><span class="group__num">08</span>Смузи</h3>
+          <ol class="rows">
+            <li><span>Витаминный</span><span>480</span><span>520</span></li>
+            <li><span>Черничный</span><span>480</span><span>520</span></li>
+            <li><span>Манговый</span><span>480</span><span>520</span></li>
+          </ol>
+        </section>
+        <section class="group rise" aria-labelledby="g9">
+          <h3 id="g9"><span class="group__num">09</span>Молочные коктейли</h3>
+          <ol class="rows">
+            <li><span>Молочный</span><span>470</span><span>540</span></li>
+            <li><span>Шоколадный</span><span>470</span><span>540</span></li>
+            <li><span>Банановый</span><span>470</span><span>540</span></li>
+          </ol>
+        </section>
+        <section class="group rise" aria-labelledby="g10">
+          <h3 id="g10"><span class="group__num">10</span>Фреш</h3>
+          <ol class="rows">
+            <li><span>Апельсиновый</span><span>460</span><span>490</span></li>
+          </ol>
+        </section>
+        <section class="group group--wide rise" aria-labelledby="g11">
+          <h3 id="g11"><span class="group__num">11</span>Молоко и добавки</h3>
+          <ol class="rows rows--single">
+            <li><span>Растительное молоко <small>кокосовое, банановое, миндальное, овсяное</small></span><span>90</span></li>
+            <li><span>Безлактозное молоко</span><span>90</span></li>
+            <li><span>Дополнительный шот</span><span>90</span></li>
+            <li><span>Сироп</span><span>60</span></li>
+            <li><span>Пюре</span><span>60</span></li>
+            <li><span>Сливки</span><span>60</span></li>
+            <li><span>Маршмеллоу</span><span>60</span></li>
+          </ol>
+        </section>
+      </div>
+    </section>
+
+    <section class="promo" id="promo" aria-labelledby="promo-title" data-reveal>
+      <div class="promo__head">
+        <h2 id="promo-title" class="rise">Акции</h2>
+        <p class="rise">Условия те&nbsp;же на&nbsp;кассе, в&nbsp;боте и&nbsp;здесь. Активируются в&nbsp;один клик в&nbsp;Telegram или Max.</p>
+      </div>
+      <ul class="offers">
+        <li class="offer offer--lead rise" data-promo="early">
+          <span class="offer__num">01</span>
+          <h3>Ранний Ковёр</h3>
+          <p class="offer__terms">Каждый день до&nbsp;10:00 любой кофе из&nbsp;основной карты со&nbsp;скидкой 15&nbsp;%. Сююмбике с&nbsp;7:00, Мира с&nbsp;6:00.</p>
+          <a class="offer__link" href="https://t.me/kover_coffee_bot?start=promo_early" target="_blank" rel="noopener">Активировать в&nbsp;боте</a>
+        </li>
+        <li class="offer rise" data-promo="seventh">
+          <span class="offer__num">02</span>
+          <h3>Седьмой кофе в&nbsp;подарок</h3>
+          <p class="offer__terms">Назовите номер телефона на&nbsp;кассе. Шесть отметок, седьмой напиток за&nbsp;наш счёт. Бумажная карта с&nbsp;наклейками тоже работает.</p>
+          <a class="offer__link" href="https://t.me/kover_coffee_bot?start=promo_seventh" target="_blank" rel="noopener">Открыть карту гостя</a>
+        </li>
+        <li class="offer rise" data-promo="pass10">
+          <span class="offer__num">03</span>
+          <h3>Абонемент «Десять»</h3>
+          <p class="offer__terms">Десять напитков основной карты за&nbsp;2&nbsp;990&nbsp;₽ вместо 3&nbsp;600&nbsp;₽. Действует 45&nbsp;дней в&nbsp;обеих кофейнях, списывается по&nbsp;номеру телефона.</p>
+          <a class="offer__link" href="https://t.me/kover_coffee_bot?start=promo_pass10" target="_blank" rel="noopener">Купить абонемент</a>
+        </li>
+        <li class="offer rise" data-promo="delivery">
+          <span class="offer__num">04</span>
+          <h3>Доставка до&nbsp;дома</h3>
+          <p class="offer__terms">Жителям дома на&nbsp;Сююмбике, 36 привозим до&nbsp;двери бесплатно от&nbsp;одного напитка. Соседним офисам от&nbsp;пяти напитков.</p>
+          <a class="offer__link" href="https://t.me/kover_coffee_bot?start=promo_delivery" target="_blank" rel="noopener">Заказать доставку</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card" id="card" aria-labelledby="card-title" data-reveal>
+      <div class="card__visual rise" aria-hidden="true">
+        <div class="stamp-card">
+          <span class="stamp-card__brand">Ковёр</span>
+          <span class="stamp-card__name">Карта гостя</span>
+          <div class="stamps">
+            <i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i></i><i class="is-gift"></i>
+          </div>
+          <span class="stamp-card__note">5 из&nbsp;7. Ещё два, и&nbsp;кофе за&nbsp;наш счёт</span>
+        </div>
+      </div>
+      <div class="card__text">
+        <h2 id="card-title" class="rise">Карта гостя<br>без приложения</h2>
+        <ol class="steps">
+          <li class="rise"><span class="steps__num">01</span><div><h3>Назовите номер на&nbsp;кассе</h3><p>Бариста вводит четыре последние цифры, отметка ставится за&nbsp;пять секунд. Показывать ничего не&nbsp;нужно.</p></div></li>
+          <li class="rise"><span class="steps__num">02</span><div><h3>Следите за&nbsp;отметками в&nbsp;боте</h3><p>В&nbsp;Telegram или Max видно, сколько до&nbsp;подарка. Наклейки с&nbsp;бумажной карты переносим по&nbsp;просьбе.</p></div></li>
+          <li class="rise"><span class="steps__num">03</span><div><h3>Седьмой кофе в&nbsp;подарок</h3><p>Одна карта на&nbsp;обе кофейни. Отметки хранятся 60&nbsp;дней.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="places" id="places" aria-labelledby="places-title" data-reveal>
+      <div class="places__head"><h2 id="places-title" class="rise">Две кофейни,<br>одна карта</h2><p class="rise">Отметки, абонемент и&nbsp;подарочный кофе действуют на&nbsp;обеих точках.</p></div>
+      <div class="places__list">
+        <article class="place rise">
+          <h3>Сююмбике, 36</h3>
+          <p class="place__hours">Каждый день 07:00–23:00</p>
+          <p class="place__note">Вход со&nbsp;стороны проспекта. Доставка до&nbsp;двери жителям дома.</p>
+          <div class="place__actions">
+            <a class="btn btn--wine" href="https://yandex.ru/maps/org/kovyor/14790723084/" target="_blank" rel="noopener"><span class="btn__fill"></span><span class="btn__label">Построить маршрут</span></a>
+            <a class="place__phone" href="tel:+79170000000">+7 917 000-00-00</a>
+          </div>
+        </article>
+        <article class="place rise">
+          <h3>Мира, 86, стр.&nbsp;1</h3>
+          <p class="place__hours">Каждый день 06:00–00:00</p>
+          <p class="place__note">У&nbsp;ДК&nbsp;КАМАЗа. Открываемся к&nbsp;первой смене.</p>
+          <div class="place__actions">
+            <a class="btn btn--wine" href="https://yandex.ru/maps/?text=%D0%9A%D0%BE%D0%B2%D1%91%D1%80%20%D0%BA%D0%BE%D1%84%D0%B5%D0%B9%D0%BD%D1%8F%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%9C%D0%B8%D1%80%D0%B0%2086%20%D0%9D%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D1%8B%D0%B5%20%D0%A7%D0%B5%D0%BB%D0%BD%D1%8B" target="_blank" rel="noopener"><span class="btn__fill"></span><span class="btn__label">Построить маршрут</span></a>
+            <a class="place__phone" href="tel:+79170000000">+7 917 000-00-00</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot" data-reveal>
+    <div class="foot__brand rise">
+      <span class="foot__logo">Ковёр</span>
+      <p>Кофейня в&nbsp;Набережных Челнах. Работаем каждый день с&nbsp;раннего утра до&nbsp;позднего вечера.</p>
+    </div>
+    <div class="foot__contacts rise">
+      <a class="foot__phone" href="tel:+79170000000">+7 917 000-00-00</a>
+      <div class="foot__links">
+        <a href="https://t.me/kover_coffee_bot" target="_blank" rel="noopener">Бот в Telegram</a>
+        <a href="https://max.ru/kover_coffee_bot" target="_blank" rel="noopener">Бот в Max</a>
+        <a href="https://t.me/kover_coffee" target="_blank" rel="noopener">Канал @kover_coffee</a>
+      </div>
+    </div>
+    <div class="foot__meta rise">
+      <span>Сююмбике, 36 / Мира, 86, стр. 1</span>
+      <a href="#top">Политика обработки данных</a>
+      <span>2026</span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

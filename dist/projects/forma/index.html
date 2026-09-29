@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#191919">
+  <title>FORMA — салон красоты, запись онлайн</title>
+  <meta name="description" content="FORMA: стрижки и окрашивание, маникюр и педикюр, брови, ресницы и макияж. Выберите услуги, день и свободное время — запись подтверждается сразу.">
+  <link rel="icon" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#booking">К записи</a>
+
+  <header class="top" id="top">
+    <a class="logo rise" style="--d:300ms" href="#top" aria-label="FORMA — начало страницы">FORMA</a>
+    <nav class="rise" style="--d:420ms" aria-label="Разделы">
+      <a href="#services">Меню</a>
+      <a href="#booking">Запись</a>
+      <span class="top__hours">Пн–сб / 10:00–20:00</span>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__media" aria-hidden="true"><img src="hero/salon.webp" alt="" fetchpriority="high"></div>
+      <div class="hero__content">
+        <div class="hero__top">
+          <p class="hero__note rise" style="--d:1040ms">Волосы, ногти, брови и&nbsp;макияж в&nbsp;одном пространстве. Один мастер — всё внимание вам. Пн–сб, 10:00–20:00.</p>
+        </div>
+        <div class="hero__bottom">
+          <div class="hero__brand">
+            <p class="hero__slogan rise" style="--d:900ms">Форма, которую хочется носить снова и&nbsp;снова.</p>
+            <h1 id="hero-title" class="hero__wordmark rise" style="--d:1000ms">FORMA</h1>
+          </div>
+          <div class="hero__cta rise" style="--d:1150ms">
+            <a class="btn btn--solid" href="#services"><span class="btn__fill"></span><span class="btn__label">Выбрать услуги</span></a>
+            <span class="reassure">Запись онлайн, без предоплаты</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="services" aria-labelledby="menu-title" data-reveal>
+      <div class="menu__intro">
+        <div class="menu__visual" aria-hidden="true">
+          <img class="is-active" src="hero/hair.webp" alt="" data-id="hair" loading="lazy" style="--pos:55% 35%">
+          <img src="hero/color.webp" alt="" data-id="color" loading="lazy" style="--pos:50% 30%">
+          <img src="hero/treatment.webp" alt="" data-id="treatment" loading="lazy" style="--pos:50% 30%">
+          <img src="hero/styling.webp" alt="" data-id="styling" loading="lazy" style="--pos:50% 30%">
+          <img src="hero/nails.webp" alt="" data-id="nails" loading="lazy" style="--pos:55% 40%">
+          <img src="hero/pedicure.webp" alt="" data-id="pedicure" loading="lazy" style="--pos:50% 40%">
+          <img src="hero/brows.webp" alt="" data-id="brows" loading="lazy" style="--pos:55% 30%">
+          <img src="hero/lashes.webp" alt="" data-id="lashes" loading="lazy" style="--pos:50% 30%">
+          <img src="hero/makeup.webp" alt="" data-id="makeup" loading="lazy" style="--pos:50% 30%">
+        </div>
+        <div class="menu__caption">
+          <h2 id="menu-title" class="rise">Меню</h2>
+          <p class="rise" style="--d:100ms">Девять услуг для волос, рук, бровей и&nbsp;макияжа. Наведите на&nbsp;позицию, чтобы увидеть, как это выглядит; отметьте одну или несколько — время визита посчитаем сами.</p>
+          <p class="menu__current rise" style="--d:150ms" id="menu-current" aria-live="polite">Стрижка и укладка</p>
+        </div>
+      </div>
+      <ol class="menu__list" aria-label="Услуги и цены">
+        <li class="menu__row rise" style="--d:150ms" data-id="hair"><label><span class="menu__num">01</span><span class="menu__title">Стрижка и&nbsp;укладка<small>Волосы</small></span><span class="menu__dur">60–90 мин</span><span class="menu__price">от 3&nbsp;500&nbsp;₽</span><input class="sr-only" type="checkbox" value="hair"><span class="check" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label></li>
+        <li class="menu__row rise" style="--d:200ms" data-id="color"><label><span class="menu__num">02</span><span class="menu__title">Окрашивание<small>Волосы</small></span><span class="menu__dur">120–180 мин</span><span class="menu__price">от 6&nbsp;500&nbsp;₽</span><input class="sr-only" type="checkbox" value="color"><span class="check" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label></li>
+        <li class="menu__row rise" style="--d:250ms" data-id="treatment"><label><span class="menu__num">03</span><span class="menu__title">Уход для волос<small>Волосы</small></span><span class="menu__dur">60–75 мин</span><span class="menu__price">от 3&nbsp;200&nbsp;₽</span><input class="sr-only" type="checkbox" value="treatment"><span class="check" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label></li>
+        <li class="menu__row rise" style="--d:300ms" data-id="styling"><label><span class="menu__num">04</span><span class="menu__title">Вечерняя укладка<small>Волосы</small></span><span class="menu__dur">45–75 мин</span><span class="menu__price">от 3&nbsp;000&nbsp;₽</span><input class="sr-only" type="checkbox" value="styling"><span class="check" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label></li>
+        <li class="menu__row rise" style="--d:350ms" data-id="nails"><label><span class="menu__num">05</span><span class="menu__title">Маникюр и&nbsp;покрытие<small>Ногти</small></span><span class="menu__dur">90–120 мин</span><span class="menu__price">от 2&nbsp;800&nbsp;₽</span><input class="sr-only" type="checkbox" value="nails"><span class="check" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label></li>
+        <li class="menu__row rise" style="--d:400ms" data-id="pedicure"><label><span class="menu__num">06</span><span class="menu__title">Педикюр и&nbsp;покрытие<small>Ногти</small></span><span class="menu__dur">90–120 мин</span><span class="menu__price">от 3&nbsp;500&nbsp;₽</span><input class="sr-only" type="checkbox" value="pedicure"><span class="check" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label></li>
+        <li class="menu__row rise" style="--d:450ms" data-id="brows"><label><span class="menu__num">07</span><span class="menu__title">Брови и&nbsp;взгляд<small>Брови и&nbsp;ресницы</small></span><span class="menu__dur">40–60 мин</span><span class="menu__price">от 2&nbsp;000&nbsp;₽</span><input class="sr-only" type="checkbox" value="brows"><span class="check" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label></li>
+        <li class="menu__row rise" style="--d:500ms" data-id="lashes"><label><span class="menu__num">08</span><span class="menu__title">Ламинирование ресниц<small>Брови и&nbsp;ресницы</small></span><span class="menu__dur">60–75 мин</span><span class="menu__price">от 3&nbsp;000&nbsp;₽</span><input class="sr-only" type="checkbox" value="lashes"><span class="check" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label></li>
+        <li class="menu__row rise" style="--d:550ms" data-id="makeup"><label><span class="menu__num">09</span><span class="menu__title">Макияж<small>Макияж</small></span><span class="menu__dur">60–90 мин</span><span class="menu__price">от 4&nbsp;500&nbsp;₽</span><input class="sr-only" type="checkbox" value="makeup"><span class="check" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></label></li>
+      </ol>
+    </section>
+
+    <section class="booking" id="booking" aria-labelledby="booking-title" data-reveal>
+      <div class="booking__flow">
+        <h2 id="booking-title" class="rise">Запись на&nbsp;визит</h2>
+        <p class="booking__lead rise" style="--d:100ms">Один мастер, шаг 15&nbsp;минут, запись на&nbsp;ближайшие 30&nbsp;дней и&nbsp;минимум за&nbsp;час. Время бронируется целиком под выбранные услуги.</p>
+
+        <div class="step rise" style="--d:200ms">
+          <h3>01 / Услуги</h3>
+          <div class="chips" id="chips"><p class="hint">Пока ничего не&nbsp;выбрано — <a href="#services">отметьте услуги в&nbsp;меню</a>.</p></div>
+        </div>
+
+        <div class="step rise" style="--d:250ms">
+          <h3>02 / День</h3>
+          <div class="days" id="days" role="group" aria-label="День визита"><p class="hint">Загружаем расписание…</p></div>
+        </div>
+
+        <div class="step rise" style="--d:300ms">
+          <h3>03 / Время</h3>
+          <div class="slots" id="slots" role="group" aria-label="Время визита"><p class="hint">Выберите услуги и&nbsp;день — покажем свободное время.</p></div>
+        </div>
+
+        <form class="form rise" id="form" style="--d:350ms" novalidate>
+          <h3>04 / Контакты</h3>
+          <label class="field">Ваше имя<input name="name" autocomplete="name" minlength="2" maxlength="80" required placeholder="Как к вам обращаться"></label>
+          <label class="field">Телефон<input name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="+7 999 123-45-67"></label>
+          <label class="honey" aria-hidden="true">Сайт<input name="website" tabindex="-1" autocomplete="off"></label>
+          <label class="consent"><input name="consent" type="checkbox" required><span>Согласен, что имя, телефон и&nbsp;детали визита увидит администратор салона — только для этой записи.</span></label>
+          <p class="msg" id="msg" role="alert" aria-live="assertive"></p>
+          <div class="submit">
+            <button type="submit" class="btn btn--solid" id="submit"><span class="btn__fill"></span><span class="btn__label">Подтвердить запись</span></button>
+            <span class="reassure">Подтверждение сразу, без предоплаты</span>
+          </div>
+        </form>
+
+        <div class="done" id="done" hidden tabindex="-1">
+          <h2>Вы записаны.</h2>
+          <p class="done__when" id="done-when"></p>
+          <ul class="done__list" id="done-list"></ul>
+          <p class="done__total" id="done-total"></p>
+          <p class="done__note" id="done-note"></p>
+          <button type="button" class="btn btn--line" id="again"><span class="btn__fill"></span><span class="btn__label">Записаться ещё</span></button>
+        </div>
+      </div>
+
+      <aside class="panel rise" style="--d:400ms" aria-label="Детали визита">
+        <h3 class="panel__title">Ваш визит</h3>
+        <dl class="panel__rows" id="panel-rows"><div><dt>Услуги</dt><dd>не выбраны</dd></div></dl>
+        <dl class="panel__rows panel__totals"><div><dt>Длительность</dt><dd id="panel-duration">—</dd></div><div><dt>Когда</dt><dd id="panel-when">—</dd></div><div class="panel__sum"><dt>Итого</dt><dd id="panel-total">—</dd></div></dl>
+        <p class="panel__note">Цены «от»: итоговую сумму согласуем до&nbsp;процедуры. Оплата в&nbsp;салоне.</p>
+        <p class="panel__note">Пн–сб / 10:00–20:00 / Москва</p>
+      </aside>
+    </section>
+  </main>
+
+  <div class="dock" id="dock" aria-live="polite">
+    <span id="dock-text"></span>
+    <a class="btn btn--paper" href="#booking"><span class="btn__fill"></span><span class="btn__label">Выбрать время</span></a>
+  </div>
+
+  <footer class="foot">
+    <span class="logo">FORMA</span>
+    <span>Пн–сб / 10:00–20:00 / Москва (МСК)</span>
+    <nav aria-label="Разделы в подвале"><a href="#services">Меню</a><a href="#booking">Запись</a></nav>
+    <span class="foot__copy">© 2026 FORMA</span>
+  </footer>
+
+  <noscript><p class="noscript">Для онлайн-записи нужен JavaScript. Включите его или свяжитесь с салоном напрямую.</p></noscript>
+  <script src="demo-api.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
